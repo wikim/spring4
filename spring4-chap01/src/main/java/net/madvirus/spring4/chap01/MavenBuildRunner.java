@@ -2,7 +2,9 @@ package net.madvirus.spring4.chap01;
 
 import java.util.List;
 
-public class MavenBuildRunner implements BuildRunner {
+import net.madvirus.spring4.chap01.tmp.Buildrunner;
+
+public class MavenBuildRunner implements Buildrunner {
 
 	private String mavenPath;
 

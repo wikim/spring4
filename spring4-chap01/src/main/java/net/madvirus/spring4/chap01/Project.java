@@ -2,11 +2,14 @@ package net.madvirus.spring4.chap01;
 
 import java.util.List;
 
+import net.madvirus.spring4.chap01.tmp.Buildrunner;
+
 public class Project {
 
 	private List<String> srcDirs;
 	private String binDir;
-	private BuildRunner buildRunner;
+	private BuildRunner buildRunner2;
+	private Buildrunner buildRunner;
 	
 	public void build() {
 		buildRunner.build(srcDirs, binDir);
@@ -20,8 +23,8 @@ public class Project {
 		this.binDir = binDir;
 	}
 
-	public void setBuildRunner(BuildRunner buildRunner) {
-		this.buildRunner = buildRunner;
+	public void setBuildrunner(Buildrunner buildRunner1) {
+		this.buildRunner = buildRunner1;
 	}
 
 }

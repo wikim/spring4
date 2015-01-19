@@ -21,7 +21,7 @@
 			</list>
 		</property>
 		<property name="binDir" value="bin/" />
-		<property name="buildRunner">
+		<property name="Buildrunner">
 			<ref bean="mvnBuildRunner" />
 		</property>
 	</bean>
